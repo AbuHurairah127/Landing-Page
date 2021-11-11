@@ -7,3 +7,27 @@ body {
   font-family: "Lato", sans-serif;
   background-color: #eee;
 }
+#header{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#header-img{
+    width: 300px;
+    margin: 20px;
+    cursor: pointer;
+}
+#nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+#nav-bar ul li{
+    padding: 0px 20px;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
