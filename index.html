@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/style.css" />
-    <title>Landing Page</title>
-  </head>
-  <body>
-    <div id="header-portion" class="header-portion">
-      <header id="header" class="header">
-          <img id="header-img" class="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
-          <div id="nav-bar-portion" class="nav-bar-portion">
-              <nav id="nav-bar" class="nav-bar">
-                  <ul>
-                      <li><a href="#">Features</a></li>
-                      <li><a href="#">How It Works</a></li>
-                      <li><a href="#">Pricing</a></li>
-                  </ul>
-              </nav>
-          </div>
-      </header>
-    </div>
-    <div id="main" class="main">
-      <div id="moto" class="moto">
-        <h1>Handcrafted, home-made masterpieces</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/1344ec7941.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <div id="header-portion" class="header-portion">
+    <header id="header" class="header">
+      <img id="header-img" class="header-img"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" />
+      <div id="nav-bar-portion" class="nav-bar-portion">
+        <nav id="nav-bar" class="nav-bar">
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </nav>
       </div>
-      <div id="form-control" class="form-control">
-        <form action="https://www.freecodecamp.com/email-submit" id="form" class="from">
-          <div id="form-input" class="form-input">
-            <input type="email" name="email" id="email" placeholder="Enter your email address">
-          </div>
-          <div id="form-submit" class="form-submit">
-            <input type="submit" value="Get Started" id="submit" class="submit-btn">
-          </div>
-        </form>
-      </div>
-      <div id="features" class="features"></div>
-      <div id="how-it-works" class="how-it-works"></div>
-      <div id="pricing" class="pricing"></div>
+    </header>
+  </div>
+  <div id="main" class="main">
+    <div id="moto" class="moto">
+      <h1>Handcrafted, home-made masterpieces</h1>
     </div>
-    <div id="footer" class="footer"></div>
-  </body>
+    <div id="form-control" class="form-control">
+      <form action="https://www.freecodecamp.com/email-submit" id="form" class="from">
+        <div id="form-input" class="form-input">
+          <input type="email" name="email" id="email" placeholder="Enter your email address" />
+        </div>
+        <div id="form-submit" class="form-submit">
+          <input type="submit" value="Get Started" id="submit" class="submit-btn" />
+        </div>
+      </form>
+    </div>
+    <div id="features" class="features">
+      <div id="premium-material">
+        <div class="icon">
+          <i class="fas fa-fire" unicode="f06d"></i>
+        </div>
+        <div class="feature">
+          <h1>Premium Material</h1>
+          <span class="feature-detail">Our trombones use the shiniest brass which is sourced locally.
+            This will increase the longevity of your purchase.</span>
+        </div>
+      </div>
+      <div id="fast-shipping">
+        <div class="icon">
+          <i class="fas fa-truck" unicode="f06d"></i>
+        </div>
+        <div class="feature">
+          <h1>Fast Shipping</h1>
+          <span class="feature-detail">We make sure you recieve your trombone as soon as we have
+            finished making it. We also provide free returns if you are not
+            satisfied</span>
+        </div>
+      </div>
+      <div id="quality-assurance">
+        <div class="icon">
+          <i class="fas fa-battery-full"></i>
+        </div>
+        <div class="feature">
+          <h1>Quality Assurance</h1>
+          <span class="feature-detail">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+          </span>
+        </div>
+      </div>
+    </div>
+    <div id="how-it-works" class="how-it-works"></div>
+    <div id="pricing" class="pricing"></div>
+  </div>
+  <div id="footer" class="footer"></div>
+</body>
+
 </html>

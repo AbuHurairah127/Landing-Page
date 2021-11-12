@@ -49,5 +49,20 @@ body {
     background-color: #f1c40f;
     border: none;
     padding: 0px 15px;
+    cursor: pointer;
     font-size: 30px;
 }
+#premium-material, #fast-shipping, #quality-assurance{
+    display: flex;
+    align-items: center;
+}
+.feature-detail{
+    font-size: 17px;
+    font-weight: 600;
+}
+.icon{
+    color: darkorange;
+    font-size: 50px;
+    padding: 50px 50px 50px 50px;
+}
+    
