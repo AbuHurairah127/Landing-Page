@@ -31,6 +31,23 @@ body {
     color: black;
     font-weight: 800;
 }
-h1{
+#moto{
     text-align: center;
+}
+#form-control form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#email{
+    width: 17rem;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.submit-btn{
+    background-color: #f1c40f;
+    border: none;
+    padding: 0px 15px;
+    font-size: 30px;
 }
