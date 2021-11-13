@@ -116,3 +116,22 @@ background-color: #eee;
 .select-btn{
     font-weight: 500;
 }
+@media screen and (max-width: 767px) {
+    #pricing {
+     display: block;
+     width: 100vw;
+    }
+  }
+@media screen and (max-width: 767px) {
+    #header {
+     display: block;
+     margin: auto;
+     width: 100vw;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .trombone-price {
+     display: block;
+     width: 100vw;
+    }
+  }
